@@ -13,7 +13,7 @@ public class PositiveTicket {
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("pwd");
         Thread.sleep(5000);
-       driver.findElement(By.xpath("//input[contains(@type,'ema')]")).sendKeys("contains ema");
+        driver.findElement(By.xpath("//input[contains(@type,'ema')]")).sendKeys("contains ema");
        driver.findElement(By.xpath("//input[contains(@type,'pas')]")).sendKeys("pas");
        Thread.sleep(3000);
 
