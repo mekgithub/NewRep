@@ -8,7 +8,7 @@ public class PositiveTicket {
 
         driver.get("http://www.facebook.com");
         Thread.sleep(3000);
-        driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("i>>");
+      //  driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("i>>");
         driver.findElement(By.xpath("//input[starts-with(@name,'firstname')]")).sendKeys("MEHMET");
        Thread.sleep(1000);
        driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("pwd");
