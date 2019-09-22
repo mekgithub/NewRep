@@ -17,13 +17,13 @@ public class PositiveTicket {
        driver.findElement(By.xpath("//input[contains(@type,'pas')]")).sendKeys("pas");
        Thread.sleep(3000);
 
-      /*  driver.get("http://www.flypgs.com");
+      driver.get("http://www.flypgs.com");
 
-       */
+
         Thread.sleep(3000);
         driver.findElement(By.xpath("//*[@id=\"fligth-searh\"]/div[1]/div[1]/div/div[2]/div/label")).click();
         Thread.sleep(1000);
 
-        //driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("pwd");*/
+        driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("pwd");
     }
 }
