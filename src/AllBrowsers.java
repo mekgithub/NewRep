@@ -7,17 +7,18 @@ import org.openqa.selenium.firefox.FirefoxDriver;
     {
         public WebDriver  chrome()
         {
-            System.setProperty("webdriver.chrome.driver","C:\\Users\\iulusoy\\Downloads\\chromedriver_win32\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver","C:\\Users\\18327\\Desktop\\chromedriver_win32\\chromedriver.exe");
             WebDriver driver=new ChromeDriver();
+            driver.get("http://www.amazon.com");
             return driver;
         }
 
         //this method invokes the firefox driver
         public void firefox()
         {
-            System.setProperty("webdriver.gecko.driver","C:\\Users\\iulusoy\\Downloads\\geckodriver-v0.25.0-win64\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver","C:\\Users\\18327\\Downloads\\geckodriver-v0.25.0-win64\\geckodriver.exe");
             WebDriver driver=new FirefoxDriver();
-            driver.get("http://www.flypgs.com");
+            driver.get("http://www.facebook.com");
         }
 
     }

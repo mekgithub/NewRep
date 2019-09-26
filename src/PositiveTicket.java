@@ -19,7 +19,6 @@ public class PositiveTicket {
 
       driver.get("http://www.flypgs.com");
 
-
         Thread.sleep(3000);
         driver.findElement(By.xpath("//*[@id=\"fligth-searh\"]/div[1]/div[1]/div/div[2]/div/label")).click();
         Thread.sleep(1000);
