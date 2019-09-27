@@ -10,11 +10,14 @@ public static WebDriver driver;
 
     public static void main(String[] args) throws InterruptedException {
         invokeCh();
-        driver.get("http://skyscanner.com");
+        driver.get("http://facebook.com");
       //  driver.findElement(By.name("firstname")).sendKeys("MEHMET");
        // driver.findElement(By.name("lastname")).sendKeys("KOrtak");
+        Thread.sleep(5000);
+       /* driver.findElement(By.xpath("//input[@type='email']")).sendKeys("mehmet@sdad.com");
         Thread.sleep(2000);
-        driver.findElement(By.xpath("//button[@type='submit']")).click();
+        driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("1qaz2wsx");*/
+        driver.findElement(By.xpath("//input[contains(@type,'l_e')]")).sendKeys("conatins");
 
     }
     public static void invokeCh(){
