@@ -14,10 +14,12 @@ public static WebDriver driver;
       //  driver.findElement(By.name("firstname")).sendKeys("MEHMET");
        // driver.findElement(By.name("lastname")).sendKeys("KOrtak");
         Thread.sleep(5000);
+      //  driver.findElement(By.linkText("Forgot account?")).click();
+        driver.findElement(By.xpath())
        /* driver.findElement(By.xpath("//input[@type='email']")).sendKeys("mehmet@sdad.com");
         Thread.sleep(2000);
         driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("1qaz2wsx");*/
-        driver.findElement(By.xpath("//input[contains(@type,'l_e')]")).sendKeys("conatins");
+       // driver.findElement(By.xpath("//input[contains(@type,'l_e')]")).sendKeys("conatins");
 
     }
     public static void invokeCh(){
