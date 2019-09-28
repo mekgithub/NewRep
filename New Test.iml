@@ -33,5 +33,26 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <ANNOTATIONS>
+          <root url="file://$USER_HOME$/Downloads/operadriver_win64" />
+        </ANNOTATIONS>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Downloads/operadriver_win64" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://$USER_HOME$/Downloads/operadriver_win64" />
+        </JAVADOC>
+        <NATIVE>
+          <root url="file://$USER_HOME$/Downloads/operadriver_win64" />
+        </NATIVE>
+        <SOURCES>
+          <root url="file://$USER_HOME$/Downloads/operadriver_win64" />
+        </SOURCES>
+        <jarDirectory url="file://$USER_HOME$/Downloads/operadriver_win64" recursive="false" />
+        <jarDirectory url="file://$USER_HOME$/Downloads/operadriver_win64" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>
