@@ -27,9 +27,9 @@ public class SwitchWindows {
 
 
         driver.switchTo().window(parent);
-        System.out.println(driver.getTitle());
+        System.out.println("parent:"+driver.getTitle());
         driver.switchTo().window(child);
-        System.out.println(driver.getTitle());
+        System.out.println("child:"+driver.getTitle());
 
 
     }
